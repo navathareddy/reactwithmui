@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Drawer from "./admin/drawer";
+import Drawer from "./admin/sideBar";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import { AppBar, ThemeProvider, Toolbar } from "@material-ui/core";
@@ -13,10 +13,9 @@ import { Switch, Route, Link, BrowserRouter, Redirect } from "react-router-dom";
 import Home from "./home";
 import Text from "./test";
 import MenuBar from "./menu";
-import Menu1 from "./menu1";
-import Menu2 from "./menu2";
-import Menu3 from "./menu3";
-
+import Menu1 from "./menuItems/menu1";
+import Menu2 from "./menuItems/menu2";
+import Menu3 from "./menuItems/menu3";
 
 const App: React.FC = () => {
   const allTabs = ["/", "/tab2", "/tab3"];

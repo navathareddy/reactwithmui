@@ -62,18 +62,7 @@ const MenuBar: FC = () => {
           }
         ></Tab>
       </Tabs>
-      {/* <Tabs value={value} onChange={handleChange} indicatorColor="primary">
-        {routes.map((routeObj, i) => (
-          <Tab
-            component={Link}
-            to={routeObj.path}
-            label={routeObj.name}
-            aria-owns={routeObj.ariaOwns}
-            aria-haspopup={routeObj.ariaPopup}
-            onClick={routeObj.click}
-          ></Tab>
-        ))}
-      </Tabs> */}
+
       <Menu
         id="simple-menu"
         anchorEl={anchorEl}

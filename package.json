@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=beta webpack serve ",
     "build-prod": "cross-env NODE_ENV=production webpack ",
-    "build-beta": "cross-env NODE_ENV=beta webpack"
+    "build-beta": "cross-env NODE_ENV=beta webpack",
+    "prod": "npm run-script build-prod"
   },
   "author": "",
   "license": "ISC",
@@ -39,6 +40,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "serve": "^11.3.2"
   }
 }
